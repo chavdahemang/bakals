@@ -1,0 +1,90 @@
+.footer-list-items {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-list-items li {
+    position: relative;
+    padding: 8px 0;
+}
+
+.footer-list-items a {
+    text-decoration: none;
+    color: #989898;
+    display: block;
+    padding: 5px 15px;
+}
+
+@media (max-width: 575px) {
+    .footer-dropdown-menu {
+        left: 25% !important;
+        top: 75% !important;
+    }
+
+}
+.footer-dropdown-menu {
+    z-index: 9999;
+    display: none;
+    position: absolute;
+    left: 75%; /* Dropdown appears on the right */
+    top: 0;
+    background: #ffffff;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    min-width: 180px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.footer-dropdown-menu li {
+    padding: 5px 1px;
+    color: #000;
+}
+
+.footer-dropdown-menu a {
+    color: #000000 !important;
+}
+
+.dropdown:hover .footer-dropdown-menu {
+    display: block;
+    /* color: red !important; */
+}
+
+.footer-dropdown-menu li:hover {
+    background-color: rgba(221, 220, 220, 0.837);
+}
+
+
+
+.table-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin: 20px; */
+}
+
+.spec-table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+    background: white;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.spec-table th, .spec-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+.spec-table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+    text-align: left;
+    width: 40%;
+}
+
+.spec-table td {
+    width: 60%;
+}
