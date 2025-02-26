@@ -67,7 +67,7 @@ Creation Date: 8 October 2018
 
 body {
     background-color: #fff;
-    color: #999999;
+    color: #383737;
     line-height: 1.65;
     font-family: 'Open Sans', sans-serif;
     font-size: 14px;
@@ -2731,7 +2731,7 @@ About Features Css Style
 }
 
 .about-features .content h5:after {
-    background-color: #fcab03;
+    /* background-color: #fcab03; */
     content: "";
     height: 1px;
     left: -24px;
@@ -2748,7 +2748,7 @@ About Features Css Style
 .about-features .content .p-text {
     margin-bottom: 40px;
     font-family: 'Open Sans', sans-serif;
-    color: #a2a2a2;
+    color: #1e1e1e;
 }
 
 .about-features .content .company-list {

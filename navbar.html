@@ -26,8 +26,9 @@
                             <li><a href="#"><i class="flaticon-facebook-logo"></i></a></li>
                             <li><a href="#"><i class="flaticon-instagram"></i></a></li>
                             <li><a href="#"><i class="flaticon-linkedin"></i></a></li>
-                            <li > <div id="google_translate_element" ></div></li>
-                           
+                            <li>
+                                <div id="google_translate_element"></div>
+                            </li>
                         </ul>
                     </div>
                 </div>
@@ -199,8 +200,15 @@
 
 <script type="text/javascript">
     function googleTranslateElementInit() {
-        new google.translate.TranslateElement({ pageLanguage: 'en' }, 'google_translate_element');
+        new google.translate.TranslateElement({ pageLanguage: 'en', displayLabel: 'work' }, 'google_translate_element');
     }
 </script>
 <script type="text/javascript"
-    src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+<!-- <script>
+ window.addEventListener('load', function() {
+    let ele = document.getElementsByClassName("goog-te-combo")
+    ele.item(0).childNodes[0].innerHTML = 'Hellow'
+    console.log('All assets are loaded')
+})
+</script> -->
