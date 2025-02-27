@@ -75,7 +75,7 @@
                                             <div class="dropdown-menu">
                                                 <a class="dropdown-item" href="rotavator-detail.html">Rotavator</a>
                                                 <a class="dropdown-item" href="plough-detail.html">Plough</a>
-                                                <a class="dropdown-item" href="index.html">Cultivator</a>
+                                                <a class="dropdown-item" href="cultivator-detail.html">Cultivator</a>
                                                 <a class="dropdown-item" href="index.html">Other Agricultural
                                                     Equipment</a>
                                             </div>
@@ -203,12 +203,17 @@
         new google.translate.TranslateElement({ pageLanguage: 'en', displayLabel: 'work' }, 'google_translate_element');
     }
 </script>
+
 <script type="text/javascript"
 src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
-<!-- <script>
- window.addEventListener('load', function() {
-    let ele = document.getElementsByClassName("goog-te-combo")
-    ele.item(0).childNodes[0].innerHTML = 'Hellow'
-    console.log('All assets are loaded')
-})
-</script> -->
+
+<script>
+    $(document).ready(() => {
+        // let page = "home";
+        setTimeout(() => {
+            let ele = document.getElementsByClassName("goog-te-combo")
+            ele.item(0).childNodes[0].innerHTML = 'English'
+            console.log('All assets are loaded')
+        }, 3500);
+    });
+</script>
